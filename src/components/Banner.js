@@ -11,7 +11,7 @@ import TrackVisibility from 'react-on-screen'
 export default function Banner() {
     const [loopNum, setLoopNum] = useState(0) //Keeps track of which phrase we're currently showing.
     const [isDeleting, setIsDeleting] = useState(false) //Determines if we're deleting text.
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"] //An array of phrases to cycle through.
+    const toRotate = ["Developer", "Video Editor", "Web Developer"] //An array of phrases to cycle through.
     const [text, setText] = useState('')//The current text being shown on the screen.
     const [delta, setDelta] = useState(300 - Math.random() * 100)//Controls the speed of typing/deleting.
     const period = 2000//
@@ -76,8 +76,8 @@ export default function Banner() {
                                     <span className='tagline'>Welcome to my Portfolio</span>
                                     {/* <h1>{`Hi I'm Jayant`}<br /><span className='wrap'>{text}</span></h1> */}
                                     <h1>{`Hi! I'm Jayant`}<br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore minima odio eveniet illo sequi incidunt officiis animi veniam saepe consequuntur, maiores mollitia harum hic iure atque adipisci suscipit repellat nam.</p>
-                                    <button onClick={() => console.log('connect')}>Let's Connect<ArrowRightCircle size={25}></ArrowRightCircle></button>
+                                    <p>Hi, I'm Jayant a passionate C++, Java, and React Developer. I love solving coding challenges and building efficient, scalable applications for web and mobile.</p>
+                                    <button onClick={() => window.open("https://www.linkedin.com/in/jayantatwal", '_blank')}>Let's Connect<ArrowRightCircle size={25}></ArrowRightCircle></button>
                                 </div>}
                         </TrackVisibility>
 

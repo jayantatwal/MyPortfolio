@@ -41,7 +41,7 @@ export default function Skills() {
                             <h2>
                                 Skill
                             </h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus blanditiis, fugiat sed minima quis obcaecati reprehenderit laboriosam eum! Temporibus ea quisquam expedita incidunt corporis omnis voluptatibus eos, aliquam non odio.</p>
+                            <p>I have a strong foundation in C, C++, Java, and JavaScript, enabling me to build efficient and scalable applications. As a frontend developer, I specialize in React.js and React Native, crafting dynamic web and mobile applications with clean and responsive UI using HTML, CSS, and Bootstrap. On the backend, I work with Firebase, Firestore, and SQL, ensuring seamless data management and real-time updates. I am also proficient in DBMS concepts and have experience integrating databases with applications. Additionally, I use Git & GitHub for version control and collaborate on projects effectively. Beyond development, I actively solve coding challenges on LeetCode and HackerRank, continuously improving my problem-solving skills.</p>
                             <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                 <div className='item'>
                                     <img src={meter1} alt='skill' />
@@ -64,8 +64,8 @@ export default function Skills() {
                     </Col>
                 </Row>
             </Container>
-            <img className='background-image-left' src={colorSharp} alt='skillbg'/>
-            
+            <img className='background-image-left' src={colorSharp} alt='skillbg' />
+
         </section>
     )
 }
