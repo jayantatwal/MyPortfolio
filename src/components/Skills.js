@@ -49,11 +49,11 @@ export default function Skills() {
                                 </div>
                                 <div className='item'>
                                     <img src={meter2} alt='skill' />
-                                    <h5>Brand Identity</h5>
+                                    <h5>Logical Thinking</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter3} alt='skill' />
-                                    <h5>Logo Design</h5>
+                                    <h5>Designing</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter1} alt='skill' />

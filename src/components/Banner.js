@@ -76,7 +76,7 @@ export default function Banner() {
                                     <span className='tagline'>Welcome to my Portfolio</span>
                                     {/* <h1>{`Hi I'm Jayant`}<br /><span className='wrap'>{text}</span></h1> */}
                                     <h1>{`Hi! I'm Jayant`}<br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                    <p>Hi, I'm Jayant a passionate C++, Java, and React Developer. I love solving coding challenges and building efficient, scalable applications for web and mobile.</p>
+                                    <p>Hi, I'm a passionate C++, Java, and React Developer. I love solving coding challenges and building efficient, scalable applications for web and mobile.</p>
                                     <button onClick={() => window.open("https://www.linkedin.com/in/jayantatwal", '_blank')}>Let's Connect<ArrowRightCircle size={25}></ArrowRightCircle></button>
                                 </div>}
                         </TrackVisibility>
