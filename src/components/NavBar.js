@@ -71,8 +71,8 @@ export default function NavBar() {
               <a href="https://github.com/jayantatwal" target='blank'><img src={navIcon4} alt="" /></a>
               <a href="https://www.instagram.com/jayant.atwal/" target='blank'><img src={navIcon3} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => window.open("https://www.linkedin.com/in/jayantatwal", '_blank')}>
-              <span>Let's Connect</span>
+            <button className="vvd" onClick={() => window.open("/Resume.pdf", '_blank')}>
+              <span>Download Resume</span>
             </button>
           </span>
         </Navbar.Collapse>
