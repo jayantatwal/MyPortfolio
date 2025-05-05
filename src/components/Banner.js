@@ -14,7 +14,7 @@ export default function Banner() {
     const toRotate = ["Developer", "Video Editor", "Web Developer"] //An array of phrases to cycle through.
     const [text, setText] = useState('')//The current text being shown on the screen.
     const [delta, setDelta] = useState(300 - Math.random() * 100)//Controls the speed of typing/deleting.
-    const period = 2000//
+    const period = 2000//Before deletion starts
 
     useEffect(() => { //After the page is mounted this function will be responsible of typing and deleting the Strings
         //Runs a function tick repeatedly every delta milliseconds to update the text state.
